@@ -1,8 +1,5 @@
 f_hist <- function(column) {
 
-  library(ggplot2)
-  library(dplyr)
-
   # Create a temporary dataframe
   df <- data.frame(value = column)
 
@@ -12,8 +9,7 @@ f_hist <- function(column) {
 
   # Creating the histogram with a density overlay
   p <- ggplot(df, aes(x = value)) +
-    geom_histogram(binwidth = 1, fill = "blue", color = "white") +
-    geom_density(alpha = 0.5, fill = "red") +
+    geom_histogram(fill = "blue", color = "white") +
     theme_bw() +
     labs(title = paste("Distribution of", deparse(substitute(column))),
          subtitle = paste("NAs:", na_count, "| Unique Values:", unique_count))

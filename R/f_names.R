@@ -1,5 +1,5 @@
 
-fnames <- function(df, txt) {
+f_names <- function(df, txt) {
 
   if (txt == ''){
 

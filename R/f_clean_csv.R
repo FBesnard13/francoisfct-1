@@ -1,4 +1,4 @@
-fclean_csv <- function(df) {
+f_clean_csv <- function(df) {
 
   df <- df %>%  mutate_all(as.character)
   df[is.na(df)] <- ""
@@ -9,5 +9,4 @@ fclean_csv <- function(df) {
 
   return(df)
 }
-
 

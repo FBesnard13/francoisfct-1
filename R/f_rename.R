@@ -1,6 +1,4 @@
-
-
-frename2 <- function(df) {
+f_rename <- function(df) {
 
   x <- paste0("rename('1' = '", colnames(df)[1], "') |> ")
 
@@ -11,6 +9,10 @@ frename2 <- function(df) {
                sep = "\n")
   }
 
+
+  x <- paste(x,
+             'select(!matches("^[0-9]"))',
+             sep = "\n\n")
+
   return(cat(x))
 }
-
