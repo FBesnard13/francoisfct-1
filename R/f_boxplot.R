@@ -1,4 +1,4 @@
-f_p_boxplot <- function(column) {
+f_boxplot <- function(column) {
 
   # Create a temporary dataframe
   df <- data.frame(value = column)
