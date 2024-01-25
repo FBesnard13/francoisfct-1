@@ -1,15 +1,3 @@
-# #  Just do when you want to update the package ====
-#
-# #Install & Load devtools package which will connect to GitHub to download the package I did
-# #install.packages("devtools")
-# library(devtools)
-#
-# #Install the package I did from GitHub
-# devtools::install_github("FBesnard13/francoisfct-1")
-#
-#
-# #  IF IT DOESN'T WORK: Install localy: ====
-#
 # #Install & Load devtools package which will connect to GitHub to download the package I did
 # #install.packages("devtools")
 # library(devtools)
