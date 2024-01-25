@@ -1,8 +1,8 @@
-\name{f_boxplot}
-\alias{f_boxplot}
-\title{BoxPlot a column}
+\name{f_hist}
+\alias{f_hist}
+\title{Histogram a column}
 \usage{
-f_boxplot(column)
+f_hist(column)
 }
 \arguments{
 \item{column}{A column of a dataframe.}
@@ -13,5 +13,5 @@ f_boxplot(column)
 Return an histogram in the 'Plots' window.
 }
 \examples{
-f_boxplot(mpg$hwy)
+f_hist(mpg$hwy)
 }
