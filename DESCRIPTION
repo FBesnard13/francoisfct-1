@@ -1,7 +1,7 @@
 Package: francoisfct
 Type: Package
 Title: Add a few basic functions Francois built
-Version: 0.1.0
+Version: 0.1.1
 Author: Francois BESNARD
 Maintainer: Francois BESNARD <francois.besnard13@gmail.com>
 Description: More about what it does (maybe more than one line)

@@ -1,5 +1,5 @@
 
-f_DB_tables <- function(txt) {
+f_DB_tables <- function(txt = '') {
 
   if (txt == ''){
 
