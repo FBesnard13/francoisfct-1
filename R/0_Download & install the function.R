@@ -6,7 +6,7 @@
 # #https://api.github.com/repos/FBesnard13/francoisfct-1/tarball/HEAD
 #
 # #Replace the following code by the URL of the downloaded file
-# #devtools::install_local(URL TO CHANGE: r"(C:\Users\fbesnard\Downloads\FBesnard13-francoisfct-1-3746c72.tar.gz)")
+# devtools::install_local(r"(C:\Users\fbesnard\Downloads\FBesnard13-francoisfct-1-dbd6fe3.tar.gz)")
 #
 #
 #
