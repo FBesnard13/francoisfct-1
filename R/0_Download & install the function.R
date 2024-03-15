@@ -5,8 +5,11 @@
 # #Copy Paste the URL in your navigator
 # #https://api.github.com/repos/FBesnard13/francoisfct-1/tarball/HEAD
 #
+# Detach the package first (unload becacuse of .RProfile load)
+# detach("package:francoisfct", unload = TRUE)
+#
 # #Replace the following code by the URL of the downloaded file
-# devtools::install_local(r"(C:\Users\fbesnard\Downloads\FBesnard13-francoisfct-1-dbd6fe3.tar.gz)")
+# devtools::install_local(r"(C:\Users\fbesnard\Downloads\FBesnard13-francoisfct-1-1d9281c.tar.gz)")
 #
 #
 #
