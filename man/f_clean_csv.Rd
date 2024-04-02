@@ -11,6 +11,7 @@ f_clean_csv(df)
 }
 \description{
 Return a df with characters replaced:\cr
+- NAs turns into ''\cr
 - ',' turns into '-'\cr
 - " ' " turns into 'in'\cr
 - line breaks turns into ''
